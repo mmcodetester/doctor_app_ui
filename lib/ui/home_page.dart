@@ -45,6 +45,11 @@ class _MyWidgetState extends State<HomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            const Padding(
+              padding: EdgeInsetsDirectional.fromSTEB(20, 20, 0, 0),
+              child: Text("Find Your \nMedical Solutions",
+                  style: TextStyle(fontSize: 20, color: Color(0xFF009688))),
+            ),
             const SizedBox(
               height: 20,
             ),
