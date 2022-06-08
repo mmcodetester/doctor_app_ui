@@ -1,3 +1,4 @@
+import 'package:doctor_app_ui/ui/doctor/specialist/heart_special_list.dart';
 import 'package:flutter/material.dart';
 
 class CategroySection extends StatelessWidget {
@@ -10,24 +11,32 @@ class CategroySection extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Container(
-            padding: EdgeInsets.zero,
-            decoration: BoxDecoration(
-                borderRadius: const BorderRadius.all(Radius.circular(10.0)),
-                color: Colors.greenAccent.withOpacity(0.3)),
-            height: 120,
-            width: 100,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: const [
-                Icon(Icons.medical_information_sharp, size: 40),
-                Text("Heart"),
-                Text(
-                  "Specialist",
-                  style: TextStyle(color: Colors.grey, fontSize: 13),
-                )
-              ],
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const HeartSpecialList()));
+            },
+            child: Container(
+              padding: EdgeInsets.zero,
+              decoration: BoxDecoration(
+                  borderRadius: const BorderRadius.all(Radius.circular(10.0)),
+                  color: Colors.greenAccent.withOpacity(0.3)),
+              height: 120,
+              width: 100,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: const [
+                  Icon(Icons.medical_information_sharp, size: 40),
+                  Text("Heart"),
+                  Text(
+                    "Specialist",
+                    style: TextStyle(color: Colors.grey, fontSize: 13),
+                  )
+                ],
+              ),
             ),
           ),
           Container(
