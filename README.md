@@ -1,5 +1,6 @@
 # UI Design
-![0](https://user-images.githubusercontent.com/72187529/172532126-50a82567-3ee3-43b8-822d-041c9c9a6c52.PNG)![1](https://user-images.githubusercontent.com/72187529/172532144-3ff8f406-f694-49b5-b2e4-bcd9f908ce01.PNG)![2](https://user-images.githubusercontent.com/72187529/172532195-3937d3b2-65ca-4b08-969f-d7965b32d266.PNG)![3](https://user-images.githubusercontent.com/72187529/172548468-39dd1921-8fd4-44ef-b186-8601153d757a.PNG)
+![0](https://user-images.githubusercontent.com/72187529/172532126-50a82567-3ee3-43b8-822d-041c9c9a6c52.PNG)![1](https://user-images.githubusercontent.com/72187529/172532144-3ff8f406-f694-49b5-b2e4-bcd9f908ce01.PNG)![2](https://user-images.githubusercontent.com/72187529/172532195-3937d3b2-65ca-4b08-969f-d7965b32d266.PNG)![3](https://user-images.githubusercontent.com/72187529/172548732-4518f023-0f16-4119-9cbe-315f9453e0b6.PNG)
+
 
 ## Getting Started
 
