@@ -1,4 +1,5 @@
 import 'package:doctor_app_ui/model/ambulance.dart';
+
 import 'package:flutter/material.dart';
 
 class AmbulanceCategory extends StatefulWidget {
@@ -9,6 +10,13 @@ class AmbulanceCategory extends StatefulWidget {
 }
 
 class _MyWidgetState extends State<AmbulanceCategory> {
+  late bool hover;
+  @override
+  void initState() {
+    hover = false;
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -39,7 +47,7 @@ class _MyWidgetState extends State<AmbulanceCategory> {
                           decoration: BoxDecoration(
                               borderRadius: const BorderRadius.only(
                                   topLeft: Radius.circular(90.0)),
-                              color: Colors.green.withOpacity(0.1)),
+                              color: Colors.green.withOpacity(0.2)),
                           padding: const EdgeInsets.only(left: 10),
                           width: 180,
                           height: 180,

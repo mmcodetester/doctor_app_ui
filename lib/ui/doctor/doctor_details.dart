@@ -59,7 +59,7 @@ class _DoctorDetailsState extends State<DoctorDetails> {
                       ),
                     )),
                 Positioned(
-                    top: 50,
+                    top: 30,
                     left: 3,
                     child: IconButton(
                         onPressed: () {
