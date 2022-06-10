@@ -98,7 +98,7 @@ class _MyWidgetState extends State<HomePage> {
                             )));
               },
               child: Container(
-                width: 290,
+                width: 300,
                 height: 199,
                 clipBehavior: Clip.hardEdge,
                 decoration: BoxDecoration(

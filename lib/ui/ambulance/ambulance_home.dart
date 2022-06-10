@@ -1,3 +1,4 @@
+import 'package:doctor_app_ui/ui/ambulance/ambluance_category.dart';
 import 'package:flutter/material.dart';
 
 class AmbulanceHome extends StatefulWidget {
@@ -48,6 +49,10 @@ class _AmbulanceHomeState extends State<AmbulanceHome> {
                 style: TextStyle(color: Color(0xFF009688), fontSize: 18),
               ),
             ),
+            const SizedBox(
+              height: 10,
+            ),
+            const AmbulanceCategory()
           ],
         ),
       ),

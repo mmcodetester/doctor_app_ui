@@ -98,7 +98,7 @@ class _HeartSpecialListState extends State<HeartSpecialList> {
                   var item = hDoctorList[index];
                   return Container(
                     decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.1),
+                        color: Colors.green.withOpacity(0.1),
                         borderRadius:
                             const BorderRadius.all(Radius.circular(20.0))),
                     height: 200,
